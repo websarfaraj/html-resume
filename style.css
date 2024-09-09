@@ -143,7 +143,10 @@ padding-bottom: 40px;
     display: flex;
     justify-content: center;
     height: 200px;
+    width: 100%;
     background-color: #f0ecec;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
 .adam-heading {
@@ -151,6 +154,7 @@ padding-bottom: 40px;
 }
 
 .child-skills-para{
+    line-height: 30px;
     margin-bottom: 20px;
 }
 
