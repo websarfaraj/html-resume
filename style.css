@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .overlay{
     background-color: rgba(0, 0, 0, 0.5);
     height: inherit;
@@ -23,22 +24,25 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-
 }
+
 .adam{
     height: inherit;
     border-radius: 50%;
     border: 5px solid skyblue;
 }
 
+
 .banner{
     background-attachment: fixed;
 }
 
 #about-me{
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    width: 100%;
     margin: auto;
-    padding: 50px ;
+    padding-top: 50px ;
+    padding-bottom: 50px;
 }
 
 .heading h4{
@@ -136,23 +140,22 @@
 }
 /* .skills-section */
 
-/* #adam-skills{
-padding-top: 30px;
-padding-bottom: 40px;
-} */
+#adam-skills{
+ padding-top: 40px;
+ padding-bottom: 40px;
+ background-color: #f0ecec;
+}
 
 .parent-skills{
     display: flex;
     justify-content: center;
     height: 200px;
     width: 100%;
-    background-color: #f0ecec;
-    padding-top:60px;
-    padding-bottom:60px;
+    
 }
 
-.adam-heading {
-    background-color: #f0ecec;
+.adam-heading h2 {
+   margin-bottom: 20px;
 }
 
 .child-skills-para{
@@ -162,6 +165,7 @@ padding-bottom: 40px;
 
 .child-skills-progress-bar{
     width: 100%;
+    row-gap: 20px;
 }
 .percent1{
     position: absolute;
@@ -244,20 +248,21 @@ padding-bottom: 40px;
     display:flex;
     text-align: center;
     justify-content: center;
-    gap: 70px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    padding: 30px;
+    gap: 30px;
    
 }
 .adam-icons1{
     width:100%;
-    height:210px;
-    margin-bottom: 30px;
+    height:auto;
+    /* margin-bottom: 30px; */
     border: 1px solid;
     padding:20px;
 }
 
 .adam-icons1 i{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     align-items: center;
     text-align: center;
     font-size:30px;
@@ -265,13 +270,13 @@ padding-bottom: 40px;
 
 .adam-icons2{
     width:100%;
-    height:210px;
+    height:auto;
     border:1px solid;
     padding:20px;
 }
 
 .adam-icons2 i{
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
     align-items:center;
     text-align:center;
     font-size:30px;
@@ -280,13 +285,13 @@ padding-bottom: 40px;
 
 .adam-icons3{
     width:100%;
-    height:210px;
+    height:auto;
     border:1px solid;
     padding:20px;
 }
 
 .adam-icons3 i{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     align-items: center;
     text-align: center;
     font-size: 30px;
@@ -294,20 +299,21 @@ padding-bottom: 40px;
 .parent-adam-icons-2{
     display:flex;
     text-align: center;
-    justify-content: center;
-    gap: 70px;
-    padding-left:20px;
+    justify-content: space-between;
+    /* padding-left:20px; */
+    padding: 30px;
+    gap: 30px;
 }
 .adam-icon4{
     width:100%;
-    height:210px;
+    height:auto;
     border:1px solid;
     padding:20px;
     
 }
 
 .adam-icons4 i{
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
     align-items: center;
     text-align: center;
     font-size:30px;
@@ -315,14 +321,14 @@ padding-bottom: 40px;
 
 .adam-icon5{
     width:100%;
-    height:210px;
+    height:auto;
     border:1px solid;
     align-items:center;
     padding:20px;
 }
 
 .adam-icons5 i{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     align-items: center;
     text-align: center;
     font-size: 30px;
@@ -330,13 +336,13 @@ padding-bottom: 40px;
 
 .adam-icon6{
     width:100%;
-    height:210px;
+    height:auto;
     border:1px solid ;
     padding:20px;
 }
 
 .adam-icons6 i{
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
     align-items: center;
     text-align: center;
     font-size: 30px;
@@ -646,7 +652,7 @@ padding-bottom: 40px;
 
 #contact-foam{
     padding-top: 60px;
-    padding-bottom: 150px;
+    padding-bottom: 60px;
     width: 100%;
 
 }
@@ -708,7 +714,7 @@ font-size: 20PX;
     text-decoration:none;
     font-size:15px;
     color: #101010;
-    font-weight:500px;
+    font-weight:500;
     padding:15px 32px;
     line-height:150px;
     border-radius:80px;
@@ -734,6 +740,7 @@ font-size: 20PX;
     display: flex;
     justify-content: space-between;
     background-color: #f0ecec;
+    padding: 60px;
 
 }
 
