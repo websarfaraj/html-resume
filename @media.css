@@ -17,4 +17,32 @@
         flex-direction: column;
         gap: 20px;
     }
+    .parent-boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .parent-Creative{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .parent-Creative1{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .parent-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .parent-details{
+        flex-direction: column;
+    }
+    
+    .parent-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
