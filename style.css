@@ -46,9 +46,10 @@
 
 .heading h4{
     color: slategray;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
+    padding: 10px;
 }
 .heading h2{
     margin-bottom: 30px;
@@ -145,6 +146,21 @@
  background-color: #f0ecec;
 }
 
+.adam-heading h4{
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.adam-heading h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 .parent-skills{
     display: flex;
     justify-content: center;
@@ -159,7 +175,7 @@
 }
 
 .child-skills-progress-bar{
-    width:50%;
+    width:100%;
     row-gap: 20px;
 }
 .percent1{
@@ -236,7 +252,18 @@
     padding-bottom: 60px;
 }
 .coloum h5{
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
     padding: 10px;
+}
+
+.coloum h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .perent-adam-icon{
@@ -362,9 +389,27 @@
     position: relative;
 
 }
+
+.heading-1 h4{
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
+
+}
+
+.heading-1 h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 .images-poster1{
     position: relative;
 }
+
 .images-poster1 img{
     height: 320px;
     width: 320px;
@@ -442,12 +487,25 @@
 }
 
 .Heading-2 h5{
-    padding: 10px;
-   
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px; 
+    margin-top: 40px;
 }
+
+.heading-2 h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
 .images-container1{
     position: relative;
 }
+
 .images-container1 img{
     height:320px;
     width:320px;
@@ -629,10 +687,19 @@
     background-color:#f0ecec;
 }
 .work-title h5{
-    padding:10px;
-
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
 }
 
+.work-title h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
 .parent-container{
     display: flex;
     justify-content: center;
@@ -680,6 +747,20 @@
     padding: 15px;
     margin-left: 30px;
     line-height: 60px;
+}
+
+.contact-info-text h5{
+    color: slategray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contact-info-text h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 .contact-foam{
     line-height: 100px;
