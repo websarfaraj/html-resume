@@ -164,13 +164,13 @@
 .parent-skills{
     display: flex;
     justify-content: center;
-    height: 190px;
+    height:auto;
     width: 100%;
     
 }
 
 .child-skills-para{
-    line-height: 30px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
