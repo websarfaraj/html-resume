@@ -19,30 +19,34 @@
     }
     .parent-boxes{
         flex-direction: column;
+        flex-flow: wrap;
         align-items: center;
+        gap: 40px;
     }
     .parent-Creative{
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap:10px;
     }
     .parent-Creative1{
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap:10px;
     }
     .parent-container{
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 60px;
     }
     .parent-details{
+        flex-direction: column;
+    }
+    .contact-foam{
         flex-direction: column;
     }
     
     .parent-footer{
         flex-direction: column;
         align-items: center;
-    }
-    
+    }    
 }
