@@ -148,17 +148,9 @@
 .parent-skills{
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: auto;
     width: 100%;
     
-}
-.adam-heading h2{
-    padding: 10px;
-
-}
-
-.adam-heading h2 {
-   margin-bottom: 20px;
 }
 
 .child-skills-para{
@@ -182,7 +174,7 @@
 }
 
 .progress-bar1{
-    width: 100%;
+    width: 50%;
     height: 5px;
     background-color: #5d5454;
 
@@ -702,18 +694,14 @@
     outline: none;
     font-size: 15px;
     position: relative;
-    right: 220px;
-
 }
 
 .contact-foam p b{
     position: relative;
-    right: 220px;
 }
 
 .button{
     position: relative;
-    right: 220px;
 }
 
 .button a{
