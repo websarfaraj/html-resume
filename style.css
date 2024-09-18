@@ -190,7 +190,7 @@
 }
 
 .progress-bar1{
-    width: 50%;
+    width: 100%;
     height: 5px;
     background-color: #5d5454;
 
@@ -207,7 +207,7 @@
 }
 
 .progress-bar2{
-    width: 50%;
+    width: 100%;
     height: 5px;
     background-color: #5d5454;
 
@@ -224,7 +224,7 @@
 }
 
 .progress-bar3{
-    width:50%;
+    width:100%;
     height: 5px;
     background-color: #5d5454;
 
@@ -241,7 +241,7 @@
 }
 
 .progress-bar4{
-    width: 50%;
+    width: 100%;
     height: 5px;
     background-color: #5d5454;
 
@@ -775,7 +775,7 @@
     outline: none;
     font-size: 15px;
     position: relative;
-    margin-right: 40px;
+    margin-right:45px;
 }
 
 .contact-foam p b{

@@ -8,6 +8,11 @@
     .parent-skills{
         flex-direction: column;
     }
+    .about-me-details{
+        flex-direction: column;
+        gap: 5px;
+    }
+
     /* box icons */
     .perent-adam-icon{
         flex-direction: column;
