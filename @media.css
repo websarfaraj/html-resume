@@ -4,12 +4,26 @@
     }
     .parent-about-container{
         flex-direction: column;
+
+    }
+    .heading h4{
+        text-align: center;
+    }
+    .heading h2{
+        text-align: center;
     }
     #adam-skills{
         padding:10px;
     }
     .parent-skills{
         flex-direction: column;
+    }
+    .adam-heading h4{
+        text-align: center;
+    }
+
+    .adam-heading h2{
+        text-align: center;
     }
 
     .about-me-details{
@@ -26,16 +40,39 @@
         flex-direction: column;
         gap: 20px;      
     }
+    .coloum h5{
+        text-align: center;
+    }
+
+    .coloum h2{
+        text-align: center;
+    }
+    
     .parent-boxes{
         flex-direction: column;
         flex-flow: wrap;
         align-items: center;
         gap: 40px;
     }
+
+    .heading-1 h4{
+        text-align: center;
+    }
+    .heading-1 h2{
+        text-align: center;
+    }
     .parent-Creative{
         flex-direction: column;
         align-items: center;
         gap:10px;
+    }
+
+    .Heading-2 h5{
+        text-align: center;
+    }
+
+    .Heading-2 h2{
+        text-align: center;
     }
     .parent-Creative1{
         flex-direction: column;
@@ -46,6 +83,14 @@
         flex-direction: column;
         align-items: center;
         gap: 60px;
+    }
+
+    .work-title h5{
+        text-align: center;
+    }
+
+    .work-title h2{
+        text-align: center;
     }
     .parent-details{
         flex-direction: column;
