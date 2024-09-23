@@ -182,7 +182,7 @@
 
 .child-skills-progress-bar {
     width: 100%;
-    padding:5px;
+    line-height:30px;
 }
 
 .percent1 {
@@ -783,7 +783,6 @@
 .contact-info-text {
     width: 100%;
     padding: 15px;
-    margin-left: 30px;
     line-height: 60px;
 }
 
