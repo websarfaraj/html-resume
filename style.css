@@ -149,7 +149,7 @@
 #adam-skills {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #f0ecec;
+    background-color: #f7f7f7;
 }
 
 .adam-heading h4 {
@@ -397,7 +397,7 @@
 }
 
 #icon-poster-img {
-    background-color: #f0ecec;
+    background-color: #f7f7f7;
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -718,7 +718,7 @@
     width: 100%;
     height: auto;
     padding: 50px 0;
-    background-color: #f0ecec;
+    background-color: #f7f7f7;
 }
 
 .work-title h5 {
@@ -851,7 +851,7 @@
 .parent-footer {
     display: flex;
     justify-content: space-between;
-    background-color: #f0ecec;
+    background-color: #f7f7f7;
     padding: 60px;
 
 }
